@@ -1,5 +1,5 @@
 provider "libvirt" {
-    uri - "qemu:///system"
+    uri = "qemu:///system"
 }
 
 resource "libvirt_volume" "ubuntu_img" {
